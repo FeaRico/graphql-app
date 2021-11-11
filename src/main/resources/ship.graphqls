@@ -1,0 +1,15 @@
+type Ship{
+    id: ID!
+    name: String!
+    status: String!
+    flag: String
+    yearBuilt: Int!
+    homePort: String
+}
+type Query{
+    ship(id: ID): Ship
+    ships(count: Int): [Ship]
+}
+type Mutation{
+    createShip(name: String!, status: String!, flag: String, yearBuilt: Int!, homePort: String ): Ship
+}

@@ -1,4 +1,4 @@
-package ru.mahach.graphqlapp.service.graphql;
+package ru.mahach.graphqlapp.graphql;
 
 import graphql.GraphQL;
 import graphql.schema.GraphQLSchema;
@@ -9,9 +9,8 @@ import graphql.schema.idl.TypeDefinitionRegistry;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
-import ru.mahach.graphqlapp.repository.ShipRepository;
-import ru.mahach.graphqlapp.service.graphql.datafetcher.AllShipsDataFetcher;
-import ru.mahach.graphqlapp.service.graphql.datafetcher.ShipDataFetcher;
+import ru.mahach.graphqlapp.graphql.datafetcher.AllShipsDataFetcher;
+import ru.mahach.graphqlapp.graphql.datafetcher.ShipDataFetcher;
 
 import javax.annotation.PostConstruct;
 import java.io.File;

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.mahach.graphqlapp.service.graphql.GraphQLService;
+import ru.mahach.graphqlapp.graphql.GraphQLService;
 
 @RestController
 @RequestMapping("api/v1/ships/")

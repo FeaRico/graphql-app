@@ -1,4 +1,4 @@
-package ru.mahach.graphqlapp.service.graphql.datafetcher;
+package ru.mahach.graphqlapp.graphql.datafetcher;
 
 import graphql.schema.DataFetcher;
 import graphql.schema.DataFetchingEnvironment;

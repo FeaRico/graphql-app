@@ -6,6 +6,12 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import java.util.Objects;
 
+/**
+ * Сущность Ship
+ * @author Makhach Abdulazizov
+ * @version 1.0
+ */
+
 @Entity
 @Table(name = "ships")
 public class Ship {
